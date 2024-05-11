@@ -1,0 +1,85 @@
+.form-box {
+    width: 60%;
+    max-width: 380px;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    background-color: #fff;
+    padding: 20px 60px 30px;
+    text-align: center;
+    box-shadow: 10px 10px 50px 12px rgb(0, 0, 0);
+}
+
+.form-box h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: rgb(255, 136, 0);
+    position: relative;
+}
+
+.form-box h1::after {
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: rgb(255, 136, 0);
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.input-field {
+    background: rgba(167, 166, 166, 0.678);
+    margin: 15px 0px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: rgb(95, 95, 95);
+    cursor: pointer;
+}
+.form p{
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form p a{
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    text-decoration:none;
+    color: rgba(21, 21, 181, 0.883);
+    border-bottom: 1px solid rgba(21, 21, 181, 0.883);
+}
+.form-btn{
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgb(255, 136, 0);
+    padding:10px 50px ;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    transition: 0.6 s ease-in-out;
+}
+.form-btn:hover{
+    background-color:rgb(255, 136, 0);
+    color: white;
+}

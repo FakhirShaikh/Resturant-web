@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FS-Restaurant-signup-page</title>
+    <link rel="icon" href="../../images/cutlery.png">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+</head>
+<body>
+    <div class="main-div">
+        <div class="nav-bar">
+            <a href="#" class="logo-name">FS-Restaurant...</a>
+        </div>
+        <div class="form-box">
+            <h1>Sign-Up</h1>
+            <div class="form">
+                    <div class="input">
+                        <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="name" placeholder="Name" required/>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" placeholder="Email" required/>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-eye-slash" id="password-eye"></i>
+                        <input type="password" id="password" placeholder="Password" required/>
+                    </div>    
+                <button class="form-btn" onclick="createAccount()">Sign Up</button>
+                </div>
+                <p>Already have an account?<a href="../login/index.html">Login</a></p>
+            </div>
+        </div>
+
+    </div>
+
+<!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
+    <!-- firebase configuration link-->
+    <script src="../../configuration/app.js">
+    </script>
+
+<!-- toastify -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+<!-- kit.fontawesome -->
+<script src="https://kit.fontawesome.com/dffffa36a0.js" crossorigin="anonymous"></script>
+
+<script src="app.js"></script>
+</body>
+
+</html>
